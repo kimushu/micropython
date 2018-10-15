@@ -35,7 +35,7 @@ CFLAGS += -O1 -DNDEBUG
 endif
 
 CFLAGS += -D'MICROPY_HW_BOARD_NAME=\"$(basename $(notdir $(ProjectDir)))\"'
-CFLAGS += -D'MICROPY_HW_MCU_NAME=\"$(Device)\"'
+CFLAGS += -D'MICROPY_HW_MCU_NAME=\"PIC32\"'
 
 $(info $(CFLAGS))
 
